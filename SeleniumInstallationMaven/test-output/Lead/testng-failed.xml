@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Lead]" parallel="classes">
+  <listeners>
+    <listener class-name="com.crm.VTiger.ObjectRepository.AnnotaionTransformer"/>
+  </listeners>
+  <test thread-count="3" name="Test1(failed)" parallel="classes">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.TestYantra.VTiger.Tl_01ClickLead">
+        <methods>
+          <include name="createLead"/>
+          <include name="logOut"/>
+          <include name="openBrowser"/>
+          <include name="logIn"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.TestYantra.VTiger.Tl_01ClickLead -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Lead] -->
