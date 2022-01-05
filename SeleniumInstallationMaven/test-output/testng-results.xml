@@ -2,28 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="automationFramework" duration-ms="100762" started-at="2021-12-20T17:06:43Z" finished-at="2021-12-20T17:08:24Z">
+  <suite name="automationFramework" duration-ms="86463" started-at="2022-01-03T09:59:46Z" finished-at="2022-01-03T10:01:13Z">
     <groups>
+      <group name="regression">
+        <method signature="Tl_01ClickLeadTest.createLead()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="createLead" class="automationFramework.Tl_01ClickLeadTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Tl_01ClickLeadTest.createLead()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="createLead" class="automationFramework.Tl_01ClickLeadTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="100762" started-at="2021-12-20T17:06:43Z" finished-at="2021-12-20T17:08:24Z">
+    <test name="Test" duration-ms="86463" started-at="2022-01-03T09:59:46Z" finished-at="2022-01-03T10:01:13Z">
       <class name="automationFramework.Tl_01ClickLeadTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@18067a5]" name="openBrowser" is-config="true" duration-ms="6640" started-at="2021-12-20T17:06:44Z" finished-at="2021-12-20T17:06:50Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="openBrowser" is-config="true" duration-ms="19307" started-at="2022-01-03T09:59:46Z" finished-at="2022-01-03T10:00:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="logIn()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@18067a5]" name="logIn" is-config="true" duration-ms="38934" started-at="2021-12-20T17:06:50Z" finished-at="2021-12-20T17:07:29Z">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="logIn" is-config="true" duration-ms="29483" started-at="2022-01-03T10:00:06Z" finished-at="2022-01-03T10:00:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="createLead()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@18067a5]" name="createLead" duration-ms="46976" started-at="2021-12-20T17:07:29Z" finished-at="2021-12-20T17:08:16Z">
+        <test-method status="PASS" signature="createLead()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="createLead" duration-ms="32464" started-at="2022-01-03T10:00:35Z" finished-at="2022-01-03T10:01:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createLead -->
-        <test-method status="PASS" signature="logOut()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@18067a5]" name="logOut" is-config="true" duration-ms="6748" started-at="2021-12-20T17:08:16Z" finished-at="2021-12-20T17:08:23Z">
+        <test-method status="PASS" signature="logOut()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="logOut" is-config="true" duration-ms="3734" started-at="2022-01-03T10:01:08Z" finished-at="2022-01-03T10:01:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@18067a5]" name="closeBrowser" is-config="true" duration-ms="1344" started-at="2021-12-20T17:08:23Z" finished-at="2021-12-20T17:08:24Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="closeBrowser" is-config="true" duration-ms="1377" started-at="2022-01-03T10:01:11Z" finished-at="2022-01-03T10:01:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

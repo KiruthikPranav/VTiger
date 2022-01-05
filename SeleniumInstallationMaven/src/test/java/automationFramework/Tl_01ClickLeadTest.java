@@ -5,10 +5,9 @@ import org.testng.annotations.Test;
 import com.crm.VTiger.ObjectRepository.LoginPage;
 import com.fileutility.BaseClass;
 
-
 public class Tl_01ClickLeadTest extends BaseClass 
 {		
-	@Test
+	@Test(groups= {"smoke","regression"})
 	public void createLead() 
 	{
 		LoginPage loginPage = new LoginPage(driver);

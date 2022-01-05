@@ -1,0 +1,12 @@
+{
+"name" : "Kiruthik",
+"age" : 23,
+"Phone" : ["Primary Mobile" : 8760029899,
+	   "Alternate Mobile" : 9884901101]
+"Address" : [
+	     "Permanent Address" : {"City" : "Srimushnam",
+				    "Postal" : 608703},
+	     "Temperary Address" : {"City" : "Chennai",
+				    "Postal" : 600091}
+	     ]
+}

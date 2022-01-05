@@ -25,7 +25,7 @@ public class BaseClass {
 	LoginPage lp;
 	
 	//@Parameters("browser")
-	@BeforeClass
+	@BeforeClass(groups= {"smoke","regression"})
 	public void openBrowser() throws IOException {
 		String browser = readFromProperty.propertyFile("browser");
 
@@ -40,7 +40,7 @@ public class BaseClass {
 		staticDriver = driver;
 	}
 
-	@BeforeMethod
+	@BeforeMethod(groups= {"smoke","regression"})
 	public void logIn() throws IOException {
 	//WebDriverManager.chromedriver().setup();
 		webUtility.implicitWait(driver, 30);
@@ -49,14 +49,14 @@ public class BaseClass {
 		logIn.loginPage(driver);
 	}
 
-	@AfterMethod
+	@AfterMethod(groups= {"smoke","regression"})
 	public void logOut() {
 		LoginPage lp = new LoginPage(driver);
 		webUtility.explicittWaitElementVisibilty(driver, 30, lp.followingLead);
 		lp.signOut();
 	}
 
-	@AfterClass
+	@AfterClass(groups= {"smoke","regression"})
 	public void closeBrowser() {
 		staticDriver.quit();
 	}

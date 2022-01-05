@@ -21,7 +21,6 @@ public class Listener extends BaseClass implements ITestListener {
 			e.printStackTrace();
 		}
 		System.out.println("ScreenShot taken");
-
 	}
 
 	public void onTestFailure(ITestResult result) {
