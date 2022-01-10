@@ -14,7 +14,9 @@ public class Tl_01ClickLeadTest extends BaseClass
 		loginPage.leadClick();
 		loginPage.leadImageClick();
 		String title = loginPage.getLeadText();
-		Assert.assertEquals("Creating New Lead",title);
+		System.out.println("Before BreakPoint");
+		Assert.assertEquals("Creating NewLead",title);
+		System.out.println("After BreakPoint");
 		System.out.println(title);
 	}	
 }

@@ -1,39 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="automationFramework" duration-ms="86463" started-at="2022-01-03T09:59:46Z" finished-at="2022-01-03T10:01:13Z">
+  <suite name="Default suite" duration-ms="910" started-at="2022-01-07T07:39:08Z" finished-at="2022-01-07T07:39:09Z">
     <groups>
-      <group name="regression">
-        <method signature="Tl_01ClickLeadTest.createLead()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="createLead" class="automationFramework.Tl_01ClickLeadTest"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="Tl_01ClickLeadTest.createLead()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="createLead" class="automationFramework.Tl_01ClickLeadTest"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="86463" started-at="2022-01-03T09:59:46Z" finished-at="2022-01-03T10:01:13Z">
-      <class name="automationFramework.Tl_01ClickLeadTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="openBrowser" is-config="true" duration-ms="19307" started-at="2022-01-03T09:59:46Z" finished-at="2022-01-03T10:00:06Z">
+    <test name="Default test" duration-ms="910" started-at="2022-01-07T07:39:08Z" finished-at="2022-01-07T07:39:09Z">
+      <class name="automationFramework.ExcelDataProvide">
+        <test-method status="PASS" signature="fetchingData(double, double, java.lang.String)[pri:0, instance:automationFramework.ExcelDataProvide@16c48ac]" name="fetchingData" duration-ms="30" started-at="2022-01-07T07:39:09Z" data-provider="ExcelData" finished-at="2022-01-07T07:39:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kiruthik]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="logIn()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="logIn" is-config="true" duration-ms="29483" started-at="2022-01-03T10:00:06Z" finished-at="2022-01-03T10:00:35Z">
+        </test-method> <!-- fetchingData -->
+        <test-method status="PASS" signature="fetchingData(double, double, java.lang.String)[pri:0, instance:automationFramework.ExcelDataProvide@16c48ac]" name="fetchingData" duration-ms="7" started-at="2022-01-07T07:39:09Z" data-provider="ExcelData" finished-at="2022-01-07T07:39:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pranav]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="createLead()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="createLead" duration-ms="32464" started-at="2022-01-03T10:00:35Z" finished-at="2022-01-03T10:01:08Z">
+        </test-method> <!-- fetchingData -->
+        <test-method status="PASS" signature="fetchingData(double, double, java.lang.String)[pri:0, instance:automationFramework.ExcelDataProvide@16c48ac]" name="fetchingData" duration-ms="6" started-at="2022-01-07T07:39:09Z" data-provider="ExcelData" finished-at="2022-01-07T07:39:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[300.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createLead -->
-        <test-method status="PASS" signature="logOut()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="logOut" is-config="true" duration-ms="3734" started-at="2022-01-03T10:01:08Z" finished-at="2022-01-03T10:01:11Z">
+        </test-method> <!-- fetchingData -->
+        <test-method status="PASS" signature="fetchingData(double, double, java.lang.String)[pri:0, instance:automationFramework.ExcelDataProvide@16c48ac]" name="fetchingData" duration-ms="4" started-at="2022-01-07T07:39:09Z" data-provider="ExcelData" finished-at="2022-01-07T07:39:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[400.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid ]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:automationFramework.Tl_01ClickLeadTest@e92674]" name="closeBrowser" is-config="true" duration-ms="1377" started-at="2022-01-03T10:01:11Z" finished-at="2022-01-03T10:01:13Z">
+        </test-method> <!-- fetchingData -->
+        <test-method status="PASS" signature="fetchingData(double, double, java.lang.String)[pri:0, instance:automationFramework.ExcelDataProvide@16c48ac]" name="fetchingData" duration-ms="5" started-at="2022-01-07T07:39:09Z" data-provider="ExcelData" finished-at="2022-01-07T07:39:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kiruthik]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- automationFramework.Tl_01ClickLeadTest -->
-    </test> <!-- Test -->
-  </suite> <!-- automationFramework -->
+        </test-method> <!-- fetchingData -->
+        <test-method status="PASS" signature="fetchingData(double, double, java.lang.String)[pri:0, instance:automationFramework.ExcelDataProvide@16c48ac]" name="fetchingData" duration-ms="5" started-at="2022-01-07T07:39:09Z" data-provider="ExcelData" finished-at="2022-01-07T07:39:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[600.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pranav]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchingData -->
+      </class> <!-- automationFramework.ExcelDataProvide -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

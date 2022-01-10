@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationFramework.Tl_01ClickLeadTest">
+      <class name="automationFramework.ExcelDataProvide">
         <methods>
-          <include name="logOut"/>
-          <include name="openBrowser"/>
-          <include name="logIn"/>
-          <include name="closeBrowser"/>
-          <include name="createLead"/>
+          <include name="fetchingData"/>
         </methods>
-      </class> <!-- automationFramework.Tl_01ClickLeadTest -->
+      </class> <!-- automationFramework.ExcelDataProvide -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
