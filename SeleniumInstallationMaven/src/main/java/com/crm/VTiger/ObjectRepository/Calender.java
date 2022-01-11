@@ -6,13 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import com.fileutility.WebDriverUtilities;
 
-public class Collections {
+public class Calender {
 	public static void main(String[] args) {
 		WebDriverUtilities wb = new WebDriverUtilities();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://xdsoft.net/jqplugins/calendar-popup/");
-		
 		
 		WebElement element = driver.findElement(By.xpath("//div[@class='calendar-popup-composer calendar-popup-composer_main calendar-popu"
 				+ "p-composer_inline']//a[@class='calendar-po"
@@ -34,7 +33,6 @@ public class Collections {
 			year = yar.getText();
 		}
 		System.out.println(year+" "+month);
-		
 		driver.quit();
 	}
 }
