@@ -8,7 +8,7 @@ public class ReverseCHARinWord {
 		String[] st = s.split(" ");
 		
 		String r= " ";
-		String cp=" ";
+		String cp="";
 		
 		for(int i=0;i<st.length;i++)
 		{
@@ -19,8 +19,8 @@ public class ReverseCHARinWord {
 				rev=c[j]+rev;
 			}
 			
-			r=rev+" "+r;
-			cp=cp+" "+rev;
+			r=rev+""+r;
+			cp=cp+""+rev;
 			
 		
 		}
