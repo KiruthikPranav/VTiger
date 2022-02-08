@@ -30,8 +30,8 @@ public class BaseClass {
 		String browser = readFromProperty.propertyFile("browser");
 
 		if (browser.equalsIgnoreCase("chrome"))
-			driver=null;
-			//driver = new ChromeDriver();
+			//driver=null;
+			driver = new ChromeDriver();
 		else if (browser.equalsIgnoreCase("firefox"))
 			driver = new FirefoxDriver();
 		else

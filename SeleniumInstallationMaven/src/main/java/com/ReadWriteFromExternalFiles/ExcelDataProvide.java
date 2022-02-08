@@ -1,4 +1,4 @@
-package automationFramework;
+package com.ReadWriteFromExternalFiles;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -13,20 +13,19 @@ import org.testng.annotations.Test;
 
 public class ExcelDataProvide {
 	
-	
 	@Test(dataProvider="ExcelData")
 	public void fetchingData(double num,double salary,String name) {
 		System.out.println(num+" "+" "+salary+" "+name);
 	}
-	
 	
 	@DataProvider(name = "ExcelData")
 	public Object[][] excelData() throws IOException {
 		String file = "I:\\Selenium\\1 Selenium Class\\ExcelDataProvide.xls";
 		FileInputStream inputFile = new FileInputStream(file);
 		
+		
 		int rowNo = 0 ,cellNo=0;
-		Workbook workbook = new  HSSFWorkbook(inputFile);
+		Workbook workbook = new  HSSFWorkbook(inputFile);//For Xls we use HSSF, for xlsx we use XSSF
 		Sheet sheet = workbook.getSheetAt(0);
 		
 		Iterator<Row> rowitr = sheet.iterator();
@@ -46,7 +45,7 @@ public class ExcelDataProvide {
 					break;
 				case NUMERIC:
 					data[rowNo][cellNo]=cell.getNumericCellValue();
-					//System.out.print(cell.getNumericCellValue());
+				//System.out.print(cell.getNumericCellValue());
 					break;
 				case BOOLEAN:
 					data[rowNo][cellNo]=cell.getBooleanCellValue();

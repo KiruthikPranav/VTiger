@@ -174,10 +174,4 @@ public class WebDriverUtilities {
 		FileUtils.copyFile(scrFile, new File(fileLocation+"\\"+fileName+fileExtension));
 	}
 	
-	
-	public void fileDownload() {
-		
-	}
-
-	
 }

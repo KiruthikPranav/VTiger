@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationFramework.ExcelDataProvide">
+      <class name="com.crm.VTiger.ObjectRepository.P">
         <methods>
-          <include name="fetchingData"/>
+          <include name="d1"/>
         </methods>
-      </class> <!-- automationFramework.ExcelDataProvide -->
+      </class> <!-- com.crm.VTiger.ObjectRepository.P -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

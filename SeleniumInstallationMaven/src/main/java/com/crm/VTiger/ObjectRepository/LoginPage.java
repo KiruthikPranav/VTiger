@@ -8,9 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.fileutility.BaseClass;
 import com.fileutility.WebDriverUtilities;
 
-
-
 public class LoginPage extends BaseClass {
+	
 		public WebDriver driver;
 		
 	public LoginPage(WebDriver driver) {
@@ -101,4 +100,5 @@ public class LoginPage extends BaseClass {
 	public void save() {
 		save.click();
 	}
+
 }
