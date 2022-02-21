@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="138" started-at="2022-02-07T06:43:18Z" finished-at="2022-02-07T06:43:18Z">
+  <suite name="Default suite" duration-ms="218" started-at="2022-02-17T10:52:52Z" finished-at="2022-02-17T10:52:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="138" started-at="2022-02-07T06:43:18Z" finished-at="2022-02-07T06:43:18Z">
-      <class name="com.crm.VTiger.ObjectRepository.P">
-        <test-method status="FAIL" signature="d1()[pri:0, instance:com.crm.VTiger.ObjectRepository.P@4f30ec]" name="d1" duration-ms="44" started-at="2022-02-07T06:43:18Z" finished-at="2022-02-07T06:43:18Z">
+    <test name="Default test" duration-ms="218" started-at="2022-02-17T10:52:52Z" finished-at="2022-02-17T10:52:53Z">
+      <class name="com.TestYantra.VTiger.TlDemo">
+        <test-method status="FAIL" signature="assertSoft()[pri:0, instance:com.TestYantra.VTiger.TlDemo@4f30ec]" name="assertSoft" duration-ms="58" started-at="2022-02-17T10:52:52Z" finished-at="2022-02-17T10:52:52Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
-After Login Home Page Failed expected [false] but found [true],
-After Login Home Page Failed expected [false] but found [true]]]>
+Failed expected [Testing1] but found [Testing],
+Soft expected [Testing1] but found [Testing]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
-After Login Home Page Failed expected [false] but found [true],
-After Login Home Page Failed expected [false] but found [true]
+Failed expected [Testing1] but found [Testing],
+Soft expected [Testing1] but found [Testing]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.crm.VTiger.ObjectRepository.P.d1(P.java:27)
+at com.TestYantra.VTiger.TlDemo.assertSoft(TlDemo.java:22)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -50,8 +50,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- d1 -->
-      </class> <!-- com.crm.VTiger.ObjectRepository.P -->
+        </test-method> <!-- assertSoft -->
+      </class> <!-- com.TestYantra.VTiger.TlDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

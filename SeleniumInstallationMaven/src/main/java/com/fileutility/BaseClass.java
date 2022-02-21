@@ -40,6 +40,23 @@ public class BaseClass {
 		lp = new LoginPage(driver);
 		staticDriver = driver;
 	}
+	
+	/*@Parameters("browser")
+		@BeforeClass(groups= {"smoke","regression"})
+		public void openBrowser1(String browser) throws IOException {
+			//String browser = readFromProperty.propertyFile("browser");
+
+			if (browser.equalsIgnoreCase("chrome"))
+				//driver=null;
+				driver = new ChromeDriver();
+			else if (browser.equalsIgnoreCase("firefox"))
+				driver = new FirefoxDriver();
+			else
+				System.out.println("Invalid Browser");
+			driver.manage().window().maximize();
+			lp = new LoginPage(driver);
+			staticDriver = driver;
+		}*/
 
 	@BeforeMethod(groups= {"smoke","regression"})
 	public void logIn() throws IOException {

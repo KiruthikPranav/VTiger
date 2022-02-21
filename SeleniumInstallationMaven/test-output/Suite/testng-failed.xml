@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="3" name="Test(failed)" parallel="classes">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
     <classes>
-      <class name="automationFramework.Tl_01ClickLeadTest">
+      <class name="com.TestYantra.VTiger.TlDemo">
         <methods>
+          <include name="openBrowser1"/>
+          <include name="parallel"/>
           <include name="logOut"/>
           <include name="openBrowser"/>
           <include name="logIn"/>
           <include name="closeBrowser"/>
-          <include name="createLead"/>
+          <include name="parallelChrome"/>
         </methods>
-      </class> <!-- automationFramework.Tl_01ClickLeadTest -->
+      </class> <!-- com.TestYantra.VTiger.TlDemo -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
