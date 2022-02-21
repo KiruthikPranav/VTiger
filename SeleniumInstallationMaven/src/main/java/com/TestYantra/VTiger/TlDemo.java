@@ -12,7 +12,8 @@ public class TlDemo {
 			}
 		}
 		
-		/*String value = "aaaaaabbbbbbbccccccccccccdddb";
+		/*
+		 * String value = "aaaaaabbbbbbbccccccccccccdddb";
 		int secondRepeating = 0;
 		LinkedHashSet<Character> valueNonRepeated = new LinkedHashSet<Character>();
 		for (int i = 0; i < value.length(); i++) {
@@ -35,5 +36,6 @@ public class TlDemo {
 			}
 			
 		}*/
+		
 	}
 }
